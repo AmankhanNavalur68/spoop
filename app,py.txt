@@ -1,0 +1,9 @@
+import streamlit as st
+
+st.markdown("""
+    <div style="text-align:center; padding:20px; background-color:#f5f5f5; border-radius:10px;">
+        <h1 style="color:#2c3e50;">🩺 Skin Disease Analysis & Classification</h1>
+        <h3 style="color:#16a085;">AI Powered Deep Learning System</h3>
+        <p>Upload a skin image and get instant prediction using Machine Learning</p>
+    </div>
+""", unsafe_allow_html=True)
